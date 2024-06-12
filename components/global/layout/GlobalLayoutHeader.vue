@@ -18,24 +18,44 @@ function onPathChanged(newPath: string) {
   let headerMainLinkProjectsElement: HTMLElement | null = document.getElementById("header-main-link--projects");
 
   if (newPath && headerMainLinkHomeElement && headerMainLinkProjectsElement) {
-    if (newPath === "/") {
-      headerMainLinkHomeElement.style.backgroundColor = "#e8e8e8";
-      headerMainLinkProjectsElement.style.backgroundColor = "transparent"
+    if (window.innerWidth > 432) {
+      if (newPath === "/") {
+        headerMainLinkHomeElement.style.backgroundColor = "#e8e8e8";
+        headerMainLinkProjectsElement.style.backgroundColor = "transparent"
 
-      headerMainLinkHomeElement.style.color = "#005fb8";
-      headerMainLinkProjectsElement.style.color = "var(--axudev-colorset-general-fontcolor-1)"
-    } else if (newPath.startsWith("/projects")) {
-      headerMainLinkHomeElement.style.backgroundColor = "transparent";
-      headerMainLinkProjectsElement.style.backgroundColor = "#e8e8e8"
+        headerMainLinkHomeElement.style.color = "#005fb8";
+        headerMainLinkProjectsElement.style.color = "var(--axudev-colorset-general-fontcolor-1)"
+      } else if (newPath.startsWith("/projects")) {
+        headerMainLinkHomeElement.style.backgroundColor = "transparent";
+        headerMainLinkProjectsElement.style.backgroundColor = "#e8e8e8"
 
-      headerMainLinkHomeElement.style.color = "var(--axudev-colorset-general-fontcolor-1)";
-      headerMainLinkProjectsElement.style.color = "#005fb8"
+        headerMainLinkHomeElement.style.color = "var(--axudev-colorset-general-fontcolor-1)";
+        headerMainLinkProjectsElement.style.color = "#005fb8"
+      } else {
+        console.log("AUGH!");
+      }
     } else {
-      console.log("AUGH!");
+      headerMainLinkHomeElement.innerHTML = "<i class='fa-solid fa-house'></i>";
+      headerMainLinkProjectsElement.innerHTML = "<i class='fa-solid fa-list'></i>";
+
+      if (newPath === "/") {
+        headerMainLinkHomeElement.style.backgroundColor = "#e8e8e8";
+        headerMainLinkProjectsElement.style.backgroundColor = "transparent"
+
+        headerMainLinkHomeElement.style.color = "#005fb8";
+        headerMainLinkProjectsElement.style.color = "var(--axudev-colorset-general-fontcolor-1)"
+      } else if (newPath.startsWith("/projects")) {
+        headerMainLinkHomeElement.style.backgroundColor = "transparent";
+        headerMainLinkProjectsElement.style.backgroundColor = "#e8e8e8"
+
+        headerMainLinkHomeElement.style.color = "var(--axudev-colorset-general-fontcolor-1)";
+        headerMainLinkProjectsElement.style.color = "#005fb8"
+      } else {
+        console.log("AUGH!");
+      }
     }
   }
 }
-
 </script>
 
 <template>
