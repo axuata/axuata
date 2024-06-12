@@ -16,40 +16,66 @@ onMounted(() => {
 function onPathChanged(newPath: string) {
   let headerMainLinkHomeElement: HTMLElement | null = document.getElementById("header-main-link--home");
   let headerMainLinkProjectsElement: HTMLElement | null = document.getElementById("header-main-link--projects");
+  let headerMainLinkNoticesElement: HTMLElement | null = document.getElementById("header-main-link--notices");
 
-  if (newPath && headerMainLinkHomeElement && headerMainLinkProjectsElement) {
+  if (newPath && headerMainLinkHomeElement && headerMainLinkProjectsElement && headerMainLinkNoticesElement) {
     if (window.innerWidth > 432) {
       if (newPath === "/") {
         headerMainLinkHomeElement.style.backgroundColor = "#e8e8e8";
         headerMainLinkProjectsElement.style.backgroundColor = "transparent"
+        headerMainLinkNoticesElement.style.backgroundColor = "transparent"
 
         headerMainLinkHomeElement.style.color = "#005fb8";
-        headerMainLinkProjectsElement.style.color = "var(--axudev-colorset-general-fontcolor-1)"
+        headerMainLinkProjectsElement.style.color = "var(--axudev-colorset-general-fontcolor-2)"
+        headerMainLinkNoticesElement.style.color = "var(--axudev-colorset-general-fontcolor-2)"
       } else if (newPath.startsWith("/projects")) {
         headerMainLinkHomeElement.style.backgroundColor = "transparent";
         headerMainLinkProjectsElement.style.backgroundColor = "#e8e8e8"
+        headerMainLinkNoticesElement.style.backgroundColor = "transparent"
 
-        headerMainLinkHomeElement.style.color = "var(--axudev-colorset-general-fontcolor-1)";
+        headerMainLinkHomeElement.style.color = "var(--axudev-colorset-general-fontcolor-2)";
         headerMainLinkProjectsElement.style.color = "#005fb8"
+        headerMainLinkNoticesElement.style.color = "var(--axudev-colorset-general-fontcolor-2)"
+      } else if (newPath.startsWith("/notices"))  {
+        headerMainLinkHomeElement.style.backgroundColor = "transparent";
+        headerMainLinkProjectsElement.style.backgroundColor = "transparent"
+        headerMainLinkNoticesElement.style.backgroundColor = "#e8e8e8"
+
+        headerMainLinkHomeElement.style.color = "var(--axudev-colorset-general-fontcolor-2)";
+        headerMainLinkProjectsElement.style.color = "var(--axudev-colorset-general-fontcolor-2)"
+        headerMainLinkNoticesElement.style.color = "#005fb8"
       } else {
         console.log("AUGH!");
       }
     } else {
       headerMainLinkHomeElement.innerHTML = "<i class='fa-solid fa-house'></i>";
       headerMainLinkProjectsElement.innerHTML = "<i class='fa-solid fa-list'></i>";
+      headerMainLinkNoticesElement.innerHTML = "<i class='fa-solid fa-plus'></i>";
 
       if (newPath === "/") {
         headerMainLinkHomeElement.style.backgroundColor = "#e8e8e8";
         headerMainLinkProjectsElement.style.backgroundColor = "transparent"
+        headerMainLinkNoticesElement.style.backgroundColor = "transparent"
 
         headerMainLinkHomeElement.style.color = "#005fb8";
-        headerMainLinkProjectsElement.style.color = "var(--axudev-colorset-general-fontcolor-1)"
+        headerMainLinkProjectsElement.style.color = "var(--axudev-colorset-general-fontcolor-2)"
+        headerMainLinkNoticesElement.style.color = "var(--axudev-colorset-general-fontcolor-2)"
       } else if (newPath.startsWith("/projects")) {
         headerMainLinkHomeElement.style.backgroundColor = "transparent";
         headerMainLinkProjectsElement.style.backgroundColor = "#e8e8e8"
+        headerMainLinkNoticesElement.style.backgroundColor = "transparent"
 
-        headerMainLinkHomeElement.style.color = "var(--axudev-colorset-general-fontcolor-1)";
+        headerMainLinkHomeElement.style.color = "var(--axudev-colorset-general-fontcolor-2)";
         headerMainLinkProjectsElement.style.color = "#005fb8"
+        headerMainLinkNoticesElement.style.color = "var(--axudev-colorset-general-fontcolor-2)"
+      } else if (newPath.startsWith("/notices"))  {
+        headerMainLinkHomeElement.style.backgroundColor = "transparent";
+        headerMainLinkProjectsElement.style.backgroundColor = "transparent"
+        headerMainLinkNoticesElement.style.backgroundColor = "#e8e8e8"
+
+        headerMainLinkHomeElement.style.color = "var(--axudev-colorset-general-fontcolor-2)";
+        headerMainLinkProjectsElement.style.color = "var(--axudev-colorset-general-fontcolor-2)"
+        headerMainLinkNoticesElement.style.color = "#005fb8"
       } else {
         console.log("AUGH!");
       }
@@ -67,6 +93,7 @@ function onPathChanged(newPath: string) {
       <div class="header-main-link">
         <NuxtLink to="/" id="header-main-link--home"><i class="fa-solid fa-house"></i>ホーム</NuxtLink>
         <NuxtLink to="/projects/" id="header-main-link--projects"><i class="fa-solid fa-list"></i>プロジェクト</NuxtLink>
+        <NuxtLink to="/notices/" id="header-main-link--notices"><i class="fa-solid fa-plus"></i>お知らせ</NuxtLink>
       </div>
     </div>
   </div>
@@ -97,7 +124,7 @@ function onPathChanged(newPath: string) {
 
       a {
         transition: 0.1s;
-        color: var(--axudev-colorset-general-fontcolor-1);
+        color: var(--axudev-colorset-general-fontcolor-2);
         text-decoration: none;
         padding: 5px 11px 6px;
         margin: 0px 4px;
