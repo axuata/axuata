@@ -74,6 +74,8 @@ function onPathChanged(newPath: string) {
 
 <style scoped lang="scss">
 .header {
+  position: sticky;
+  top: 0;
   background-color: #f1f1f1;
   display: flex;
   height: 58px;
