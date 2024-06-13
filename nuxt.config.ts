@@ -20,7 +20,6 @@ export default defineNuxtConfig({
         { src: "https://kit.fontawesome.com/e48ae4e274.js", crossorigin: "anonymous"},
       ],
     },
-    pageTransition: { name: 'page', mode: 'out-in' },
   },
   components: [{
     path: '~/components/',
