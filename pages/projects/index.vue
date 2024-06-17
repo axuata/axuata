@@ -10,6 +10,7 @@
   </GlobalSectionWithSlot>
   <GlobalSectionWithSlot titleText="ソフトウェア">
     <GlobalCard titleText="Accents" descriptionTextHtml="<p>自由にアクセント記号を付けれるソフト<br><a href='https://github.com/axuata/accents'>Github</a></p>" />
+    <GlobalCard titleText="Paper" descriptionTextHtml="<p>モダンなUIのメモ帳<br><a href='https://github.com/axuata/paper'>Github</a></p>" />
   </GlobalSectionWithSlot>
   <GlobalSectionWithSlot titleText="Wiki">
     <GlobalCard titleText="Axuwiki" descriptionTextHtml="<p>Axuataに関する情報がまとめられたWiki<br><a href='https://axuata.notion.site/638d9a474d384af4bab55ca0bf8c7ead?v=de371e6839e64e08ac897560b5b0f536&pvs=4'>Notion</a></p>" />
