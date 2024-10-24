@@ -45,17 +45,6 @@ const props = defineProps({
 
   .article-content {
     padding: 40px 0;
-
-    slot {
-      h1 {
-        color: var(--black-1);
-      }
-
-      p {
-        color: var(--black-2);
-        font-weight: 700;
-      }
-    }
   }
 }
 </style>

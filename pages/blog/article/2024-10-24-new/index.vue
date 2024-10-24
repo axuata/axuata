@@ -16,5 +16,9 @@
 </template>
 
 <style scoped lang="scss">
-
+@media (max-width: 800px) {
+  * {
+    text-align: center;
+  }
+}
 </style>
