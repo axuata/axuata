@@ -7,3 +7,17 @@ a {
 body {
   font-family: 'Noto Sans JP', sans-serif;
 }
+
+// Axuataのカラーパレット
+:root {
+  --black-0: #000000;
+  --black-1: #222222;
+  --black-2: #444444;
+  --black-3: #666666;
+}
+
+// ここから下 このプロジェクト固有のスタイル
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}

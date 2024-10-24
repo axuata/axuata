@@ -6,19 +6,19 @@ export default defineNuxtConfig({
   modules: [ "@nuxtjs/google-fonts" ],
   googleFonts: {
     families: {
-      'Noto+Sans+JP': true,
+      'Noto+Sans+JP': '200..900',
     },
     display: 'swap',
   },
-  app:{
+  app: {
     head: {
-      title: "Your website name here",
+      title: "Axuata",
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
       ],
       link: [
-        { rel: "icon", type: "image/png", href: "/your/favicon/path" },
+        { rel: "icon", type: "image/png", href: "/assets/images/axuata/axuata.png" },
       ],
     },
   },

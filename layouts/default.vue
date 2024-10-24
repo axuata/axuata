@@ -3,7 +3,9 @@
 </script>
 
 <template>
+  <LayoutHeader />
   <slot />
+  <LayoutFooter />
 </template>
 
 <style scoped>
