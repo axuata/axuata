@@ -4,7 +4,7 @@
 
 <template>
   <div class="welcome">
-    <p>ブログ</p>
+    <p>お知らせ・ブログ</p>
   </div>
 </template>
 
