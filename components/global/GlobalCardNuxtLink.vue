@@ -34,24 +34,20 @@ const props = defineProps({
   }
 
   .card-image {
-    position: relative; /* 位置を制御するために relative を設定 */
+    margin: 0 auto;
     border-radius: 30px;
     height: 200px;
     width: 350px;
-    overflow: hidden;
     background-image: url("/assets/images/background/grid.webp");
-    background-size: cover; /* 背景画像を全体に表示 */
-    background-position: center; /* 背景画像を中央に配置 */
-    display: flex; /* フレックスボックスを有効にする */
-    justify-content: center; /* 水平方向の中央配置 */
-    align-items: center; /* 垂直方向の中央配置 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     img {
-      position: relative; /* 画像の前面に配置 */
-      z-index: 1; /* 背景より前に表示 */
+      z-index: 1;
       height: 80%;
       object-position: center;
-      object-fit: cover; /* 画像のアスペクト比を維持しつつ親要素に収まるように */
+      object-fit: cover;
     }
   }
 
