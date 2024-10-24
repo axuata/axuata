@@ -30,5 +30,15 @@ export default defineNuxtConfig({
         }
       }
     }
-  }
+  },
+  components: {
+    dirs: [
+      {
+        path: '~/components',
+        extensions: ['vue'],
+        pathPrefix: false,
+        level: 3,
+      },
+    ],
+  },
 })

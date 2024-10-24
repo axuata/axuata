@@ -5,24 +5,24 @@
 <template>
   <PageProjectsWelcome />
   <GlobalSection sectionTitle="最近のプロジェクト">
-    <GlobalFlex>
+    <GlobalGeneralFlex>
       <GlobalCard cardLink="https://github.com/axuata/axuata" cardImageSrc="/assets/images/axuata/axuata.png" cardTitle="Axuata">
         <p>Axuataのウェブサイト</p>
       </GlobalCard>
-      <GlobalCard cardLink="https://github.com/axuata/nuxstato" cardImageSrc="/assets/images/project-icons/nuxstato/icon.svg" cardTitle="Nuxstato">
+      <GlobalCard cardLink="https://github.com/axuata/nuxstato" cardImageSrc="/assets/images/icons/project-icons/nuxstato/icon.svg" cardTitle="Nuxstato">
         <p>Nuxtのテンプレート</p>
       </GlobalCard>
-    </GlobalFlex>
+    </GlobalGeneralFlex>
   </GlobalSection>
   <GlobalSection sectionTitle="プロジェクト一覧">
-    <GlobalFlex>
+    <GlobalGeneralFlex>
       <GlobalCard cardLink="https://github.com/axuata/axuata" cardImageSrc="/assets/images/axuata/axuata.png" cardTitle="Axuata">
         <p>Axuataのウェブサイト</p>
       </GlobalCard>
-      <GlobalCard cardLink="https://github.com/axuata/nuxstato" cardImageSrc="/assets/images/project-icons/nuxstato/icon.svg" cardTitle="Nuxstato">
+      <GlobalCard cardLink="https://github.com/axuata/nuxstato" cardImageSrc="/assets/images/icons/project-icons/nuxstato/icon.svg" cardTitle="Nuxstato">
         <p>Nuxtのテンプレート</p>
       </GlobalCard>
-    </GlobalFlex>
+    </GlobalGeneralFlex>
   </GlobalSection>
 </template>
 

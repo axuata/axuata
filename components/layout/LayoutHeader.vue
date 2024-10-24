@@ -22,8 +22,8 @@ function changeBackground(path: string) {
     activeLinkId = "link-home";
   } else if (path.startsWith("/projects")) {
     activeLinkId = "link-projects";
-  } else if (path.startsWith("/blog")) {
-    activeLinkId = "link-blog";
+  } else if (path.startsWith("/articles")) {
+    activeLinkId = "link-articles";
   } else if (path.startsWith("/tools")) {
     activeLinkId = "link-tools";
   }
@@ -50,7 +50,7 @@ function changeBackground(path: string) {
     <div class="header-content">
       <NuxtLink to="/" class="header-content-item" id="link-home">ホーム</NuxtLink>
       <NuxtLink to="/projects/" class="header-content-item" id="link-projects">プロジェクト</NuxtLink>
-      <NuxtLink to="/blog/" class="header-content-item" id="link-blog">ブログ</NuxtLink>
+      <NuxtLink to="/articles/" class="header-content-item" id="link-articles">お知らせ・ブログ</NuxtLink>
       <NuxtLink to="/tools/" class="header-content-item" id="link-tools">ツール</NuxtLink>
     </div>
   </div>
