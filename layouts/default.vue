@@ -3,9 +3,11 @@
 </script>
 
 <template>
-  <header>Header Content</header>
-  <slot />
-  <footer>Footer Content</footer>
+  <div class="h-100vh bg-#f8fafc">
+    <CHeader />
+    <slot />
+    <CFooter />
+  </div>
 </template>
 
 <style scoped>
