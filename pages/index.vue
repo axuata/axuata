@@ -10,10 +10,10 @@
     </div>
   </CSection>
   <CSection title="Projects" title-align="center">
-    <div class="flex flex-col items-center flex-wrap">
-      <CCard logo="/images/logos/axuata/project-logos/axuata/logo.png" title="Axuata" description="🌍 Axuata's Personal Website" link="https://github.com/axuata/axuata" :width="460" />
-      <CCard logo="/images/logos/axuata/project-logos/nuxtly/logo.png" title="Nuxtly" description="📄 Nuxt Starter by Axuata" link="https://github.com/axuata/nuxtly" :width="460" />
-      <CCard logo="/images/logos/axuata/project-logos/assets/logo.png" title="Assets" description="🗂️ Static Assets Repository by Axuata" link="https://github.com/axuata/assets" :width="460" />
+    <div class="max-w-460px mx-auto">
+      <CCard logo="/images/logos/axuata/project-logos/axuata/logo.png" title="Axuata" description="🌍 Axuata's Personal Website" link="https://github.com/axuata/axuata" />
+      <CCard logo="/images/logos/axuata/project-logos/nuxtly/logo.png" title="Nuxtly" description="📄 Nuxt Starter by Axuata" link="https://github.com/axuata/nuxtly" />
+      <CCard logo="/images/logos/axuata/project-logos/assets/logo.png" title="Assets" description="🗂️ Static Assets Repository by Axuata" link="https://github.com/axuata/assets" />
     </div>
   </CSection>
 </template>
