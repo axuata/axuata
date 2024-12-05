@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <CWelcome />
+  <LazyCWelcome />
   <CSection title="About Me" title-align="center">
     <div class="font-notosansjp text-center">
       <p>茨城県在住の中学三年生・ゲームとウェブ開発が好き</p>

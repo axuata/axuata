@@ -6,7 +6,7 @@
   <div>
     <div class="flex justify-between items-center mx-auto max-w-1300px h-60px">
       <div>
-        <img src="/images/logos/axuata/banner/banner.svg" alt="Axuata's Banner" class="h-50px" />
+        <NuxtImg src="/images/logos/axuata/banner/banner.svg" alt="Axuata's Banner" class="h-50px" />
       </div>
       <div class="flex">
         <div class="flex mr-10px *:mx-6px">
