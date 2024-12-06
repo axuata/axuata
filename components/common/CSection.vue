@@ -7,13 +7,13 @@ const props = defineProps({
   titleAlign: {
     type: String,
     required: true,
-  }
+  },
 });
 </script>
 
 <template>
-  <div class="max-w-1300px mx-auto mb-42px">
-    <p class="font-inter text-30px color-gray-8 font-600" :class="`text-${titleAlign}`">{{ title }}</p>
+  <div class="max-w-1300px mx-auto px-10px mb-42px">
+    <p class="font-inter color-gray-8 font-600 text-30px" :class="`text-${titleAlign}`">{{ title }}</p>
     <div>
       <slot />
     </div>
