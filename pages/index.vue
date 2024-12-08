@@ -4,12 +4,12 @@
 
 <template>
   <LazyCWelcome />
-  <CSection title="About Me" title-align="center">
+  <CSection title="About Me" title-align="center" title-font="inter">
     <div class="font-notosansjp text-center">
       <p>茨城県在住の中学三年生・ゲームとウェブ開発が好き</p>
     </div>
   </CSection>
-  <CSection title="Projects" title-align="center">
+  <CSection title="Projects" title-align="center" title-font="inter">
     <div class="max-w-460px mx-auto">
       <CCard logo="/images/logos/axuata/project-logos/axuata/logo.png" title="Axuata" description="🌍 Axuata's Personal Website" link="https://github.com/axuata/axuata" />
       <CCard logo="/images/logos/axuata/project-logos/nuxtly/logo.png" title="Nuxtly" description="📄 Nuxt Starter by Axuata" link="https://github.com/axuata/nuxtly" />

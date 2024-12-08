@@ -20,7 +20,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <NuxtLink :to="link" class="z-100 hover:scale-103 transition-transform duration-200">
+  <NuxtLink :to="link" class="mx-10px z-100 hover:scale-103 transition-transform duration-200">
     <NuxtImg :src="imageSrc" :alt="imageSrc" class="w-320px rounded-20px" />
     <div class="p-4px">
       <p class="font-notosansjp text-24px text-center font-600 color-gray-8">{{ title }}</p>
