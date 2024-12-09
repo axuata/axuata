@@ -8,11 +8,21 @@
 <style>
 @import '@unocss/reset/tailwind.css';
 
+@font-face {
+  font-family: 'local-inter';
+  src: url('/fonts/Inter-VariableFont_opsz,wght.ttf');
+}
+
+@font-face {
+  font-family: 'local-notosansjp';
+  src: url('/fonts/NotoSansJP-VariableFont_wght.ttf');
+}
+
 .font-inter {
-  font-family: "Inter", serif;
+  font-family: "local-inter", serif;
 }
 
 .font-notosansjp {
-  font-family: "Noto Sans JP", serif;
+  font-family: "local-notosansjp", serif;
 }
 </style>
