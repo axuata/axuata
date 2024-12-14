@@ -1,11 +1,4 @@
 <script setup lang="ts">
-export type Links = {
-  [name: string]: {
-    iconSrc: string;
-    link: string;
-  };
-};
-
 const props = defineProps({
   logo: {
     type: String,
