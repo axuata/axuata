@@ -23,10 +23,10 @@ const props = defineProps({
     type: String,
     required: false,
   },
-  links: {
-    type: Object as () => Links,
+  link: {
+    type: String,
     required: false,
-  },
+  }
 });
 </script>
 
@@ -43,11 +43,9 @@ const props = defineProps({
         </div>
       </div>
       <div class="flex items-center">
-        <div class="flex items-center ml-10px" v-for="(link, name) in links" :key="name">
-          <a class="flex items-center" :href="link.link">
-            <img class="size-16px mr-6px" :src="link.iconSrc" :alt="link.iconSrc" />
-          </a>
-        </div>
+        <a class="flex items-center ml-10px" :href="link">
+          <div class="i-tabler:external-link size-16px mr-6px" />
+        </a>
       </div>
     </div>
     <div class="flex items-center mt-5px">
