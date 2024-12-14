@@ -3,9 +3,11 @@
 </script>
 
 <template>
-  <header>Header Content</header>
-  <slot />
-  <footer>Footer Content</footer>
+  <div>
+    <CNavbar />
+    <slot />
+    <CFooter />
+  </div>
 </template>
 
 <style scoped>
