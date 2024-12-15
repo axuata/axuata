@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import CInfoCard, { type Links } from '~/components/common/CInfoCard.vue';
+
 </script>
 
 <template>
