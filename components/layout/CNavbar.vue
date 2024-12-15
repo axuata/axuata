@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="flex items-center justify-between max-w-1300px h-60px px-20px mx-auto">
+  <div class="flex items-center justify-between sticky top-0 bg-axugray z-1000 max-w-1300px h-60px px-20px mx-auto">
     <NuxtLink to="/">
       <img src="/images/logos/axuata/banner/banner.svg" alt="/images/logos/axuata/banner/banner.svg" class="h-50px" />
     </NuxtLink>
