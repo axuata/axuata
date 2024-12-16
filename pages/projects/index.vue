@@ -8,6 +8,7 @@
     <div class="flex flex-col items-center my-10px">
       <CInfoCard logo="/images/logos/axuata/project-logos/axuata/logo.svg" title="Axuata" description="🌍 Axuata's Personal Website" website-link="https://axuata.netlify.app" link="https://github.com/axuata/axuata" />
       <CInfoCard logo="/images/logos/axuata/project-logos/nuxtly/logo.svg" title="Nuxtly" description="📄 Nuxt Starter by Axuata" link="https://github.com/axuata/nuxtly" />
+      <CInfoCard logo="/images/logos/axuata/project-logos/toolix/logo.svg" title="Toolix" description="🛠️ Online Toolbox (開発中) " link="https://github.com/axuata/toolix" />
     </div>
   </CSection>
   <CSection title="Others" description="その他" header-align="center" title-font="inter">
