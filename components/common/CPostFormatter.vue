@@ -22,5 +22,11 @@
 ::v-slotted(p) {
   font-weight: 500;
   color: #434343;
+  line-height: 1.6;
+}
+
+::v-slotted(a) {
+  color: #0000FF;
+  text-decoration: underline;
 }
 </style>
