@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <CPostsTitle title="Recipe Plus MODについて" date="2025/01/11" />
+  <CPostsTitle title="Recipe Plus公開のお知らせ" date="2025/01/11" />
   <CFormatter>
     <section>
       <h1>前置き</h1>
