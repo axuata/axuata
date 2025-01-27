@@ -25,7 +25,7 @@ const props = defineProps({
 
 <template>
   <NuxtLink :to="link" class="">
-    <div class="flex justify-center items-center my-16px transition-all duration-200 hover:scale-105">
+    <div class="flex justify-center items-center my-10px transition-all duration-200 hover:scale-105">
       <div class="bg-white size-80px flex justify-center items-center rounded-10px">
         <Twemoji :emoji="emoji || ''" size="40px" class="" />
       </div>
@@ -33,7 +33,7 @@ const props = defineProps({
         <div>
           <p class="font-notosansjp text-20px font-600 text-gray-7">{{ title }}</p>
         </div>
-        <div>
+        <div class="w-380px">
           <p class="text-14px text-gray-5 font-500">
             <span class="font-notosansjp">{{ description }}</span>
             -
