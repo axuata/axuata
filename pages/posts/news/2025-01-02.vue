@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <CPostsTitle title="ウェブサイトについて" date="2025/01/02" />
+  <CPostsTitle title="明けましておめでとうございます！" date="2025/01/02" />
   <CFormatter>
     <section>
       <h1>前置き</h1>

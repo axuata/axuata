@@ -12,6 +12,7 @@
   "dependencies": {
     "@iconify-json/tabler": "^1.2.8",
     "nuxt": "^3.14.159",
+    "nuxt-twemoji": "^3.6.2",
     "vue": "latest",
     "vue-router": "latest"
   },

@@ -1,6 +1,10 @@
 <script setup lang="ts">
 const props = defineProps({
-  imageSrc: {
+  link: {
+    type: String,
+    required: false,
+  },
+  emoji: {
     type: String,
     required: false,
   },
@@ -8,25 +12,35 @@ const props = defineProps({
     type: String,
     required: false,
   },
+  description: {
+    type: String,
+    required: false,
+  },
   date: {
     type: String,
     required: false,
   },
-  link: {
-    type: String,
-    required: false,
-  }
 });
 </script>
 
 <template>
-  <NuxtLink :to="link" class="m-10px transform transition duration-200 hover:scale-105">
-    <div>
-      <img :src="imageSrc" :alt="imageSrc" class="w-300px h-170px rounded-20px" />
-    </div>
-    <div class="text-center mt-3px">
-      <p class="font-notosansjp text-24px text-gray-7 font-600">{{ title }}</p>
-      <p class="font-inter text-14px text-gray-6 font-500">{{ date }}</p>
+  <NuxtLink :to="link" class="">
+    <div class="flex justify-center items-center my-16px transition-all duration-200 hover:scale-105">
+      <div class="bg-white size-80px flex justify-center items-center rounded-10px">
+        <Twemoji :emoji="emoji || ''" size="40px" class="" />
+      </div>
+      <div class="ml-8px">
+        <div>
+          <p class="font-notosansjp text-20px font-600 text-gray-7">{{ title }}</p>
+        </div>
+        <div>
+          <p class="text-14px text-gray-5 font-500">
+            <span class="font-notosansjp">{{ description }}</span>
+            -
+            <span class="font-inter">{{ date }}</span>
+          </p>
+        </div>
+      </div>
     </div>
   </NuxtLink>
 </template>
