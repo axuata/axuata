@@ -33,7 +33,7 @@ const props = defineProps({
         <div>
           <p class="font-notosansjp text-20px font-600 text-gray-7">{{ title }}</p>
         </div>
-        <div class="w-380px">
+        <div class="w-350px">
           <p class="text-14px text-gray-5 font-500">
             <span class="font-notosansjp">{{ description }}</span>
             -
