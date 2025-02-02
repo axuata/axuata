@@ -11,7 +11,6 @@
       <div class="font-inter flex items-center justify-center *:mx-3px">
         <NuxtLink to="/" class="transition-all duration-200 hover:font-500">Home</NuxtLink>
         <NuxtLink to="/posts/" class="transition-all duration-200 hover:font-500">Posts</NuxtLink>
-        <NuxtLink to="/projects/" class="transition-all duration-200 hover:font-500">Projects</NuxtLink>
       </div>
     </div>
   </div>
