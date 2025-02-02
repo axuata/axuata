@@ -6,7 +6,6 @@
   <CWelcome title="Posts" description="Axuataによる投稿" />
   <CSection title="News" description="お知らせ">
     <div class="flex flex-wrap justify-center items-center flex-col">
-      <CCard link="/posts/news/2025-02-02/" emoji="📝" title="プロジェクトページについて" description="プロジェクトページを追加しました！" date="2025/02/02" />
       <CCard link="/posts/news/2025-01-02/" emoji="🌅" title="明けましておめでとうございます！" description="あけおめ！" date="2025/01/02" />
     </div>
   </CSection>
