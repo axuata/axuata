@@ -4,7 +4,7 @@ const props = defineProps({
     type: String,
     required: false,
   },
-  emoji: {
+  icon: {
     type: String,
     required: false,
   },
@@ -16,33 +16,27 @@ const props = defineProps({
     type: String,
     required: false,
   },
-  date: {
-    type: String,
-    required: false,
-  },
 });
 </script>
 
 <template>
-  <NuxtLink :to="link" class="">
-    <div class="flex justify-center items-center my-8px transition-all duration-200 hover:scale-105">
+  <a :href="link" class="flex">
+    <div class="flex justify-center items-center my-10px transition-all duration-200 hover:scale-105">
       <div class="bg-white size-80px flex justify-center items-center rounded-10px">
-        <Twemoji :emoji="emoji || ''" size="40px" class="" />
+        <img :src="icon" :alt="icon" class="size-60px" />
       </div>
-      <div class="ml-8px">
+      <div class="ml-12px">
         <div>
-          <p class="font-notosansjp text-20px font-600 text-gray-7">{{ title }}</p>
+          <p class="font-inter text-20px font-600 text-gray-7">{{ title }}</p>
         </div>
         <div class="w-350px">
           <p class="text-14px text-gray-5 font-500">
-            <span class="font-notosansjp">{{ description }}</span>
-            -
-            <span class="font-inter">{{ date }}</span>
+            <span class="font-inter">{{ description }}</span>
           </p>
         </div>
       </div>
     </div>
-  </NuxtLink>
+  </a>
 </template>
 
 <style scoped>
