@@ -1,8 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2024-11-01',
-  devtools: { enabled: true },
+  devtools: {enabled: true},
   modules: ['@unocss/nuxt', 'nuxt-twemoji'],
+
   app: {
     head: {
       charset: 'utf-8',
@@ -17,10 +17,13 @@ export default defineNuxtConfig({
       ],
     },
   },
+
   components: [
     {
       path: '~/components',
       pathPrefix: false,
     },
   ],
+
+  compatibilityDate: '2025-02-19',
 })
