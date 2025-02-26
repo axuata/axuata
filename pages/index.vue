@@ -15,7 +15,7 @@
             <p class="font-inter text-36px text-gray-8 font-600 line-height-snug">Axuata</p>
           </div>
           <div>
-            <p class="font-notosansjp text-14px font-500 text-gray-6">WEB開発、ゲーム、海外の音楽が好き<br />男 15歳 145~150cm 42kg</p>
+            <p class="font-notosansjp text-14px font-500 text-gray-6">WEB開発、ゲーム、海外の音楽が好き<br /></p>
           </div>
         </div>
       </div>
