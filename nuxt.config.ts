@@ -15,6 +15,12 @@ export default defineNuxtConfig({
           href: '/favicon.svg',
         },
       ],
+      meta: [
+        { name: 'description', content: `Axuata's website, Made by Axuata` },
+        { property: 'og:title', content: 'Axuata' },
+        { property: 'og:description', content: 'Axuata\'s website, Made by Axuata' },
+        { property: 'og:image', content: '/favicon.svg' },
+      ]
     },
   },
 
