@@ -11,5 +11,5 @@ I am a newbie front-end developer from Japan 🇯🇵.
 
 # Skills
 Including skills that I am currently learning.  
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,java,cs)](https://skillicons.dev)  
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,java,cs,rust)](https://skillicons.dev)  
 [![My Skills](https://skillicons.dev/icons?i=vue,nuxt,vite)](https://skillicons.dev)  
