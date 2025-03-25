@@ -10,7 +10,7 @@ I am a newbie front-end developer from Japan 🇯🇵.
 [![trophy](https://github-profile-trophy.vercel.app/?username=axuata&column=6)](https://github.com/ryo-ma/github-profile-trophy)
 
 # Skills
-Including skills that I am currently learning.  
+Skills I am currently learning.
 ## Front-end
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,vue,nuxt)](https://skillicons.dev)
 ## Other
