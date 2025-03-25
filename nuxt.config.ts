@@ -13,6 +13,9 @@ export default defineNuxtConfig({
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
       title: 'Axuata',
+      meta: [
+        { name: 'description', content: 'Axuata\'s Website. Made with Nuxt.' }
+      ],
       link: [
         {
           rel: 'icon',
@@ -20,6 +23,9 @@ export default defineNuxtConfig({
           href: '/favicon.svg',
         },
       ],
+      htmlAttrs: {
+        lang: 'ja',
+      },
     },
   },
   css: [
