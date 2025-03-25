@@ -1,0 +1,15 @@
+.font-ja {
+    font-family: "Noto Sans JP", "system-ui";
+}
+
+.font-en {
+    font-family: "Inter", "system-ui";
+}
+
+a {
+    @apply underline color-blue-7;
+}
+
+b {
+    @apply font-700;
+}
