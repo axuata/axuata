@@ -11,7 +11,10 @@ I am a newbie front-end developer from Japan 🇯🇵.
 
 # Skills
 Including skills that I am currently learning.  
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,java,cs,rust,vue,nuxt,vite)](https://skillicons.dev)
+## Front-end
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,vue,nuxt)](https://skillicons.dev)
+## Other
+[![Backend Skills](https://skillicons.dev/icons?i=java,cs,rust)](https://skillicons.dev)
 
 # Main Projects
 - [axuata/axuata](https://github.com/axuata/axuata) - Axuata's website! Made with Nuxt.
