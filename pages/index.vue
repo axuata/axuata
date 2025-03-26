@@ -56,15 +56,22 @@ onBeforeUnmount(() => {
       <p>また、ゲームも好きで、<b>Hoi4(Hearts of Iron 4)</b>などのゲームを遊んでいます。</p>
     </div>
   </CSection>
+<!--  <CSection title="My Skills" title-align="left">-->
+<!--    <div>-->
+<!--      -->
+<!--    </div>-->
+<!--  </CSection>-->
   <CSection title="Links" title-align="left">
-    <div class="font-ja font-500 color-gray-6">
-      <p>
-        <a href="https://x.com/axuata_x">X（旧Twitter）</a>・
-        <a href="https://github.com/axuata">GitHub</a>・
-        <a href="https://www.npmjs.com/~axuata">npm</a>・
-        <a href="https://misskey.io/@axuata">Misskey.io</a>・
-        <a href="https://bsky.app/profile/axuata.bsky.social">Bluesky</a>
-      </p>
+    <div class="my-8px flex rounded-16px b-solid b-gray-3 b-1px *:p-16px w-fit z-9999">
+      <a href="https://x.com/axuata_x" class="hover:scale-105 transition-all duration-75 rounded-16px">
+        <NuxtImg src="/images/brands/x.png" class="size-30px" />
+      </a>
+      <a href="https://github.com/axuata" class="hover:scale-105 transition-all duration-75 rounded-16px">
+        <NuxtImg src="/images/brands/github.png" class="size-30px" />
+      </a>
+      <a href="https://misskey.io/@axuata" class="hover:scale-105 transition-all duration-75 rounded-16px">
+        <NuxtImg src="/images/brands/misskeyio.png" class="size-30px" />
+      </a>
     </div>
   </CSection>
 </template>

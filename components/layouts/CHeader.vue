@@ -12,11 +12,14 @@
       <a href="/posts/" class="font-en hover:font-600 transition-all duration-100">Posts</a>
     </div>
     <div class="flex *:mx-5px">
-      <a href="https://github.com/axuata">
-        <NuxtImg src="/images/services/github/github.png" alt="Github Icon" class="size-20px" />
-      </a>
       <a href="https://x.com/axuata_x">
-        <NuxtImg src="/images/services/x/x.png" alt="X Icon" class="size-20px" />
+        <NuxtImg src="/images/brands/x.png" alt="X Icon" class="size-20px" />
+      </a>
+      <a href="https://github.com/axuata">
+        <NuxtImg src="/images/brands/github.png" alt="Github Icon" class="size-20px" />
+      </a>
+      <a href="https://misskey.io/@axuata">
+        <NuxtImg src="/images/brands/misskeyio.png" class="size-20px" />
       </a>
     </div>
   </div>
