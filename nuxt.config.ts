@@ -14,7 +14,8 @@ export default defineNuxtConfig({
       viewport: 'width=device-width, initial-scale=1',
       title: 'Axuata',
       meta: [
-        { name: 'description', content: 'Axuata\'s Website. Made with Nuxt.' }
+        { name: 'description', content: 'Axuata\'s Website. Made with Nuxt.' },
+        { name: 'google-site-verification', content: 'Vh7jScbMBYTY7d2oBDu8v8e_g8_Z-V6_H-9ZwwP19kQ' }
       ],
       link: [
         {
