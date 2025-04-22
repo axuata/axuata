@@ -1,22 +1,10 @@
 <script setup lang="ts">
-const props = defineProps({
-  href: {
-    type: String,
-    required: false,
-  },
-  emoji: {
-    type: String,
-    required: true,
-  },
-  title: {
-    type: String,
-    required: true,
-  },
-  desc: {
-    type: String,
-    required: true,
-  }
-});
+const props = defineProps<{
+  href?: string,
+  emoji: string,
+  title: string,
+  desc: string
+}>();
 </script>
 
 <template>

@@ -1,14 +1,8 @@
 <script setup lang="ts">
-const props = defineProps({
-  title: {
-    type: String,
-    required: true,
-  },
-  desc: {
-    type: String,
-    required: true,
-  }
-});
+const props = defineProps<{
+  title: string,
+  desc: string
+}>();
 </script>
 
 <template>
