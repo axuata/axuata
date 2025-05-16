@@ -17,4 +17,4 @@ Skills I am currently learning.
 [![Backend Skills](https://skillicons.dev/icons?i=java,cs,rust)](https://skillicons.dev)
 
 # Main Projects
-- [axuata/axuata](https://github.com/axuata/axuata) - Axuata's website! Made with Nuxt.
+- [axuata/axuata_website](https://github.com/axuata/axuata_website) - Axuata's website! Made with Nuxt.
