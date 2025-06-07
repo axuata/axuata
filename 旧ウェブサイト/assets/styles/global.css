@@ -1,6 +1,0 @@
-@import '@unocss/reset/tailwind.css';
-@import './typography.css';
-
-body {
-    @apply max-w-1200px mx-auto bg-#f9f9fb px-10px;
-}
