@@ -10,11 +10,7 @@ I am a newbie front-end developer from Japan 🇯🇵.
 [![trophy](https://github-profile-trophy.vercel.app/?username=axuata&column=6)](https://github.com/ryo-ma/github-profile-trophy)
 
 # Skills
-Skills I am currently learning.
 ## Front-end
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,vue,nuxt)](https://skillicons.dev)
-## Other
-[![Backend Skills](https://skillicons.dev/icons?i=java,cs,rust)](https://skillicons.dev)
-
 # Main Projects
 - [axuata/axuata_website](https://github.com/axuata/axuata_website) - Axuata's website! Made with Nuxt.
