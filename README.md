@@ -1,5 +1,5 @@
 # Hi There!
-I am a newbie front-end developer from Japan 🇯🇵.
+I am a newbie developer from Japan 🇯🇵.
 
 # Stats
 <p align="left">
